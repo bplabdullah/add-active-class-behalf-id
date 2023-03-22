@@ -1,0 +1,16 @@
+<style>
+ul#menu-main-menu-1 li a.active {
+    color: red;
+}
+</style>
+
+<script>
+
+jQuery(document).ready(function() {
+jQuery(".menu li").click(function () {
+    jQuery(".menu li").removeClass("active");
+    jQuery(this).addClass("active");   
+});
+});
+
+</script>
